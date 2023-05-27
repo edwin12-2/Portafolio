@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head lang="es">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio online de un desarrollador web. Desarrollador front-end Edwin Gallegos Hilasaca, creador de sitios webs.">
+    <meta name="keywords" content="desarrollador web, desarrollador front-end">
+    <meta name="author" content="Edwin Gallegos Hilasaca">
+    <title>Briefcase|Contact</title>
+
+    <!--Estilos CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon.png"
+    />
+
+    <!-- Animaciones CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+
+<body>
+    <nav>
+        <h1>EDWIN GALLEGOS HILASACA</h1>
+        <ul class="navegacion" id="">
+          <li class="grow"><a href="index.html" class="nav-link">Briefcase</a></li>
+        </ul>
+        <button class="menu-hamburguesa" id="menu-hamburguesa">
+          <ion-icon class="icono" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+    <!-- Barra de Navegación -->
+
+    <!-- Sección Contacto-->
+    <section class="contacto" id="contacto">
+        <h2>Contact me</h2>
+        <div class="contenedor-formulario-contacto">
+          <div class="formulario-contacto">
+            <form action="https://formspree.io/f/xyylngw" method="POST">
+              <div class="control-formulario">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Escribe tu nombre"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="control-formulario">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Income your email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="control-formulario">
+                <label for="mensaje">Message</label>
+                <textarea
+                  id="mensaje"
+                  cols="60"
+                  rows="10"
+                  placeholder="Write your message"
+                  name="mensaje"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <!-- Vuelve al comienzo  -->
+    <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba"
+    ><img
+      src="icons/icons8-scroll-up-48.png"
+      class="flecha-arriba"
+      alt="desplazarse-hacia-arriba"
+  /></i>
+    <!-- Sección Footer  -->
+    <footer>
+        <p class="copy">&copy; Copyright 2023</p>
+        <p class="copy">
+          Built with &#x2661; by
+          <a href="https://facebook.com/edwin" target="_blank"
+            >Edwin</a
+          >
+        </p>
+  </footer>
+    <!-- Website scripts -->
+    <script src="js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+</body>
+
+</html>
